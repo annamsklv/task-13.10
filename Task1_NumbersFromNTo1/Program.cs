@@ -3,13 +3,6 @@
 //  N = 5. -> "5, 4, 3, 2, 1"
 //  N = 8. -> "8, 7, 6, 5, 4, 3, 2, 1"
 
- 
-Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-int count = 1;
-NaturalToLow(number, count);
-
-
 void NaturalToLow(int n, int count)
 {
     if (count > n)
@@ -22,3 +15,7 @@ void NaturalToLow(int n, int count)
         Console.Write(count + " ");
     }
 }
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int count = 1;
+NaturalToLow(number, count);
